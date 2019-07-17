@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="28704ecf-4435-4843-bd28-b704499ec2f9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/imooc/flink/java/course02/StreamingWCJavaAPP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/flink/java/course02/StreamingWCJavaAPP.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/imooc/flink/java/course02/StreamingWCJavaAPP$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../flink-train-scala/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../flink-train-scala/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="28704ecf-4435-4843-bd28-b704499ec2f9" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,8 +23,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/flink/java/course02/StreamingWCJavaAPP.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="110" lean-forward="true" selection-start-line="110" selection-end-line="110" />
+            <state relative-caret-position="262">
+              <caret line="112" column="41" lean-forward="true" selection-start-line="112" selection-start-column="41" selection-end-line="112" selection-end-column="41" />
               <folding>
                 <element signature="e#3338#3339#0" expanded="true" />
                 <element signature="e#3373#3374#0" expanded="true" />
@@ -142,7 +138,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563382716649" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563382875897" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -192,12 +188,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1563377960881</updated>
-      <workItem from="1563377964655" duration="1748000" />
+      <workItem from="1563377964655" duration="1855000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1748000" />
+    <option name="totallyTimeSpent" value="1855000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
@@ -254,8 +250,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/flink/java/course02/StreamingWCJavaAPP.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="110" lean-forward="true" selection-start-line="110" selection-end-line="110" />
+        <state relative-caret-position="262">
+          <caret line="112" column="41" lean-forward="true" selection-start-line="112" selection-start-column="41" selection-end-line="112" selection-end-column="41" />
           <folding>
             <element signature="e#3338#3339#0" expanded="true" />
             <element signature="e#3373#3374#0" expanded="true" />

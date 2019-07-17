@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e6ad06e8-2c14-4a5d-abf2-6bdfbfed6392" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../flink-train-java/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../flink-train-java/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../flink-train-java/src/main/java/com/imooc/flink/java/course02/StreamingWCJavaAPP.java" beforeDir="false" afterPath="$PROJECT_DIR$/../flink-train-java/src/main/java/com/imooc/flink/java/course02/StreamingWCJavaAPP.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../flink-train-java/target/classes/com/imooc/flink/java/course02/StreamingWCJavaAPP$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../flink-train-java/target/classes/com/imooc/flink/java/course02/StreamingWCJavaAPP$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../flink-train-java/target/classes/com/imooc/flink/java/course02/StreamingWCJavaAPP$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../flink-train-java/target/classes/com/imooc/flink/java/course02/StreamingWCJavaAPP$WC.class" beforeDir="false" afterPath="$PROJECT_DIR$/../flink-train-java/target/classes/com/imooc/flink/java/course02/StreamingWCJavaAPP$WC.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../flink-train-java/target/classes/com/imooc/flink/java/course02/StreamingWCJavaAPP.class" beforeDir="false" afterPath="$PROJECT_DIR$/../flink-train-java/target/classes/com/imooc/flink/java/course02/StreamingWCJavaAPP.class" afterDir="false" />
-    </list>
+    <list default="true" id="e6ad06e8-2c14-4a5d-abf2-6bdfbfed6392" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
