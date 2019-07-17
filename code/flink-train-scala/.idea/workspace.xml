@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e6ad06e8-2c14-4a5d-abf2-6bdfbfed6392" name="Default Changelist" comment="" />
+    <list default="true" id="e6ad06e8-2c14-4a5d-abf2-6bdfbfed6392" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../flink-train-java/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../flink-train-java/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink-train-java/src/main/java/com/imooc/flink/java/course02/StreamingWCJavaAPP.java" beforeDir="false" afterPath="$PROJECT_DIR$/../flink-train-java/src/main/java/com/imooc/flink/java/course02/StreamingWCJavaAPP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink-train-java/target/classes/com/imooc/flink/java/course02/StreamingWCJavaAPP$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../flink-train-java/target/classes/com/imooc/flink/java/course02/StreamingWCJavaAPP$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink-train-java/target/classes/com/imooc/flink/java/course02/StreamingWCJavaAPP$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink-train-java/target/classes/com/imooc/flink/java/course02/StreamingWCJavaAPP$WC.class" beforeDir="false" afterPath="$PROJECT_DIR$/../flink-train-java/target/classes/com/imooc/flink/java/course02/StreamingWCJavaAPP$WC.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink-train-java/target/classes/com/imooc/flink/java/course02/StreamingWCJavaAPP.class" beforeDir="false" afterPath="$PROJECT_DIR$/../flink-train-java/target/classes/com/imooc/flink/java/course02/StreamingWCJavaAPP.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,6 +56,9 @@
       </file>
     </leaf>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -71,6 +81,7 @@
     <option name="width" value="1440" />
     <option name="height" value="877" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -199,17 +210,18 @@
       <workItem from="1563205986185" duration="152000" />
       <workItem from="1563274444051" duration="389000" />
       <workItem from="1563288283511" duration="402000" />
+      <workItem from="1563378039400" duration="290000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5777000" />
+    <option name="totallyTimeSpent" value="6067000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25178826" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2553648" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -280,8 +292,8 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/imooc/flink/scala/BatchJob.scala">
       <provider selected="true" editor-type-id="text-editor">
