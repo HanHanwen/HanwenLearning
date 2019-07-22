@@ -1,4 +1,4 @@
-package com.imooc.flink.scala.course02
+package com.imooc.flink.scala.BasicWC
 
 import org.apache.flink.api.scala.ExecutionEnvironment
 

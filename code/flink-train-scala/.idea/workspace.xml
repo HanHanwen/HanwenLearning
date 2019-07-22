@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e6ad06e8-2c14-4a5d-abf2-6bdfbfed6392" name="Default Changelist" comment="" />
+    <list default="true" id="e6ad06e8-2c14-4a5d-abf2-6bdfbfed6392" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../flink-train-java/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../flink-train-java/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/imooc/flink/scala/course02/BatchWCScalaAPP.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/imooc/flink/scala/BasicWC/BatchWCScalaAPP.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/imooc/flink/scala/course02/StreamingWCScalaAPP.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/imooc/flink/scala/BasicWC/StreamingWCScalaAPP.scala" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,7 +31,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/imooc/flink/scala/course02/BatchWCScalaAPP.scala">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/imooc/flink/scala/BasicWC/BatchWCScalaAPP.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
               <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
@@ -36,10 +40,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/imooc/flink/scala/course02/StreamingWCScalaAPP.scala">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/imooc/flink/scala/BasicWC/StreamingWCScalaAPP.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="300">
+              <caret line="20" column="17" lean-forward="true" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
               <folding>
                 <element signature="e#40#110#0" expanded="true" />
               </folding>
@@ -57,6 +61,7 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/scala/com/imooc/flink/scala/course02/BatchWCScalaAPP.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/imooc/flink/scala/course02/StreamingWCScalaAPP.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/imooc/flink/scala/BasicWC/StreamingWCScalaAPP.scala" />
       </list>
     </option>
   </component>
@@ -69,7 +74,7 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="877" />
@@ -120,7 +125,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="course02" type="462c0819:PsiDirectoryNode" />
+              <item name="BasicWC" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -133,7 +138,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563203192725" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563808217311" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -156,11 +161,11 @@
   </component>
   <component name="RunManager" selected="Application.StreamingWCScalaAPP">
     <configuration name="BatchWCScalaAPP" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.imooc.flink.scala.course02.BatchWCScalaAPP" />
+      <option name="MAIN_CLASS_NAME" value="com.imooc.flink.scala.BasicWC.BatchWCScalaAPP" />
       <module name="flink-train-scala" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.imooc.flink.scala.course02.*" />
+          <option name="PATTERN" value="com.imooc.flink.scala.BasicWC.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -169,11 +174,11 @@
       </method>
     </configuration>
     <configuration name="StreamingWCScalaAPP" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.imooc.flink.scala.course02.StreamingWCScalaAPP" />
+      <option name="MAIN_CLASS_NAME" value="com.imooc.flink.scala.BasicWC.StreamingWCScalaAPP" />
       <module name="flink-train-scala" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.imooc.flink.scala.course02.*" />
+          <option name="PATTERN" value="com.imooc.flink.scala.BasicWC.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -203,18 +208,18 @@
       <workItem from="1563205986185" duration="152000" />
       <workItem from="1563274444051" duration="389000" />
       <workItem from="1563288283511" duration="402000" />
-      <workItem from="1563378039400" duration="290000" />
+      <workItem from="1563378039400" duration="320000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6067000" />
+    <option name="totallyTimeSpent" value="6097000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="877" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="877" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2553648" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2553648" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -295,17 +300,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/imooc/flink/scala/course02/BatchWCScalaAPP.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/imooc/flink/scala/BasicWC/BatchWCScalaAPP.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/imooc/flink/scala/course02/StreamingWCScalaAPP.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/imooc/flink/scala/BasicWC/StreamingWCScalaAPP.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="300">
+          <caret line="20" column="17" lean-forward="true" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
           <folding>
             <element signature="e#40#110#0" expanded="true" />
           </folding>
