@@ -9,7 +9,6 @@ import org.apache.hadoop.hive.ql.exec.UDF;
 import java.util.Map;
 
 /**
- * author:      lihanwen@imdada.cn
  * date:        2019-08-05
  * comment:     获取json字符串中的key
  */
