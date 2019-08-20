@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="28704ecf-4435-4843-bd28-b704499ec2f9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/hhanwen/java/UDF/GetJsonArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/hhanwen/java/UDF/GetJsonArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../flink-train-scala/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../flink-train-scala/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="28704ecf-4435-4843-bd28-b704499ec2f9" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -236,7 +232,7 @@
       <workItem from="1564737469436" duration="203000" />
       <workItem from="1565013592678" duration="30000" />
       <workItem from="1565013626346" duration="2062000" />
-      <workItem from="1565141608792" duration="10000" />
+      <workItem from="1565141608792" duration="82000" />
     </task>
     <task id="LOCAL-00001" summary="新增转译">
       <created>1565015713888</created>
@@ -249,7 +245,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9301000" />
+    <option name="totallyTimeSpent" value="9373000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
