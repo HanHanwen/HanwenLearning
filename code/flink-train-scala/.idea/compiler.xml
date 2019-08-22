@@ -9,8 +9,5 @@
         <module name="flink-train-scala" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="flink-train-scala" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
 </project>
