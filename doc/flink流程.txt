@@ -1,0 +1,21 @@
+//flink  代码运行（流处理）：
+
+//起始：创建env
+val env = StreamExecutionEnvironment.getExecutionEnvironment();
+
+
+//中间：获取各配置
+topic
+
+
+//获取数据
+FlinkKafkaConsumer011<String> consumer = new FlinkKafkaConsumer011<String>(topic, new SimpleStringSchema(), properties);
+//数据源消费设置
+consumer.setStartFromGroupOffsets();
+
+
+//消费数据
+DataStream<String> stream = env.addSource(consumer);
+
+//终点：运行env
+env.execute(appName)
