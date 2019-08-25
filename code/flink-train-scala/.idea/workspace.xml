@@ -3,6 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="847b7e0f-6d8c-426d-8d97-652badb90078" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/imooc/flink/scala/BatchJob$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/imooc/flink/scala/BatchJob.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/imooc/flink/scala/DataSetDataSource/DistributeCacheApp$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/imooc/flink/scala/DataSetDataSource/DistributeCacheApp$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/imooc/flink/scala/StreamingJob$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/imooc/flink/scala/StreamingJob.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,31 +28,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/imooc/flink/scala/DataSetDataSource/DistributeCacheApp.scala">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/imooc/flink/scala/DataStreamDataSource/DataSourceApp.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
-              <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
-              <folding>
-                <element signature="e#49#87#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="165">
+              <caret line="11" column="29" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/dada/m2/repository/commons-io/commons-io/2.4/commons-io-2.4-sources.jar!/org/apache/commons/io/FileUtils.java">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/imooc/flink/scala/DataStreamDataSource/CustomNonParallelSourceFunction.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="1817" column="31" selection-start-line="1817" selection-start-column="31" selection-end-line="1817" selection-end-column="31" />
+            <state relative-caret-position="105">
+              <caret line="7" column="37" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/dada/m2/repository/org/apache/flink/flink-scala_2.11/1.7.2/flink-scala_2.11-1.7.2-sources.jar!/org/apache/flink/api/scala/ExecutionEnvironment.scala">
+        <entry file="jar://$USER_HOME$/dada/m2/repository/org/apache/flink/flink-streaming-java_2.11/1.7.2/flink-streaming-java_2.11-1.7.2-sources.jar!/org/apache/flink/streaming/api/functions/source/SourceFunction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="509" column="6" selection-start-line="509" selection-start-column="6" selection-end-line="509" selection-end-column="6" />
+            <state relative-caret-position="10">
+              <caret line="46" column="66" selection-start-line="46" selection-start-column="62" selection-end-line="46" selection-end-column="66" />
             </state>
           </provider>
         </entry>
@@ -62,6 +64,8 @@
       <list>
         <option value="$PROJECT_DIR$/.idea/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/scala/com/imooc/flink/scala/DataSetDataSource/DistributeCacheApp.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/imooc/flink/scala/DataStreamDataSource/CustomNonParallelSourceFunction.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/imooc/flink/scala/DataStreamDataSource/DataSourceApp.scala" />
       </list>
     </option>
   </component>
@@ -133,7 +137,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="DataSetDataSource" type="462c0819:PsiDirectoryNode" />
+              <item name="DataStreamDataSource" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -145,7 +149,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566742950737" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566745945650" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Libraries" />
@@ -165,7 +169,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.DataSourceApp">
+    <configuration name="DataSourceApp" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.imooc.flink.scala.DataStreamDataSource.DataSourceApp" />
+      <module name="flink-train-scala" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.imooc.flink.scala.DataStreamDataSource.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DistributeCacheApp" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.imooc.flink.scala.DataSetDataSource.DistributeCacheApp" />
       <module name="flink-train-scala" />
@@ -181,6 +198,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DataSourceApp" />
         <item itemvalue="Application.DistributeCacheApp" />
       </list>
     </recent_temporary>
@@ -195,12 +213,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1566485992589</updated>
-      <workItem from="1566485994362" duration="2976000" />
+      <workItem from="1566485994362" duration="5165000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2976000" />
+    <option name="totallyTimeSpent" value="5165000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
@@ -217,7 +235,7 @@
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Terminal" weight="0.3299363" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -276,6 +294,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/imooc/flink/scala/BatchJob.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="32" column="7" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/imooc/flink/scala/StreamingJob.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="34" column="7" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/imooc/flink/scala/DataSetDataSource/DistributeCacheApp.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="329">
@@ -283,6 +315,27 @@
           <folding>
             <element signature="e#49#87#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/dada/m2/repository/org/apache/flink/flink-streaming-java_2.11/1.7.2/flink-streaming-java_2.11-1.7.2-sources.jar!/org/apache/flink/streaming/api/functions/source/SourceFunction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10">
+          <caret line="46" column="66" selection-start-line="46" selection-start-column="62" selection-end-line="46" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/imooc/flink/scala/DataStreamDataSource/CustomNonParallelSourceFunction.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="37" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/imooc/flink/scala/DataStreamDataSource/DataSourceApp.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="29" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
         </state>
       </provider>
     </entry>
