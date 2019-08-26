@@ -7,9 +7,31 @@ object DataSourceApp {
     val env = StreamExecutionEnvironment.getExecutionEnvironment
 
     //GetSocketData(env)
-    GetNonParallelSourceFunction(env)
+    //GetNonParallelSourceFunction(env)
+    //GetParallelSourceFunction(env)
+    GetRichParallelSourceFunction(env)
 
     env.execute("DataStream")
+  }
+
+
+  /**
+    * get rich parallel data
+    */
+  def GetRichParallelSourceFunction(env: StreamExecutionEnvironment): Unit ={
+    val data = env.addSource(new CustomRichParallelSourceFunction()).setParallelism(2)
+
+    data.print().setParallelism(1)
+  }
+
+
+  /**
+    * get parallel data
+    */
+  def GetParallelSourceFunction(env: StreamExecutionEnvironment): Unit ={
+    val data = env.addSource(new CustomParallelSourceFunction()).setParallelism(2)
+
+    data.print().setParallelism(1)
   }
 
 
