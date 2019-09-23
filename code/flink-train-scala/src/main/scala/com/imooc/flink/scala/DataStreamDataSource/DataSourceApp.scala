@@ -1,10 +1,13 @@
 package com.imooc.flink.scala.DataStreamDataSource
 
+import org.apache.flink.streaming.api.TimeCharacteristic
 import org.apache.flink.streaming.api.scala._
 
 object DataSourceApp {
   def main(args: Array[String]): Unit = {
     val env = StreamExecutionEnvironment.getExecutionEnvironment
+
+    //env.setStreamTimeCharacteristic(TimeCharacteristic.EventTime)
 
     //GetSocketData(env)
     //GetNonParallelSourceFunction(env)
