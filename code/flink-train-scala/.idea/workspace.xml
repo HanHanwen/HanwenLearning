@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="847b7e0f-6d8c-426d-8d97-652badb90078" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../lihanwen_study/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lihanwen_study/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lihanwen_study/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../flink-train-java/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../flink-train-java/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/imooc/flink/scala/DataStreamDataSource/DataSourceApp.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/imooc/flink/scala/DataStreamDataSource/DataSourceApp.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lihanwen_study/flink-study-scala/src/main/scala/DataSream/MainTest.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lihanwen_study/flink-study-scala/target/classes/DataSream/MainTest$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lihanwen_study/flink-study-scala/target/classes/DataSream/MainTest.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,12 +37,24 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="226">
               <caret line="171" column="32" lean-forward="true" selection-start-line="171" selection-start-column="32" selection-end-line="171" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/imooc/flink/scala/DataStreamDataSource/DataSourceApp.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-147">
+              <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+              <folding>
+                <element signature="e#52#108#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -175,6 +185,35 @@
               <item name="scala" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
               <item name="BasicWC" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flink-train-scala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flink-train-scala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="DataStreamDataSource" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flink-train-scala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flink-train-scala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="DataStreamDataSource" type="462c0819:PsiDirectoryNode" />
+              <item name="Connection" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flink-train-scala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flink-train-scala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="DataStreamDataSource" type="462c0819:PsiDirectoryNode" />
+              <item name="Entity" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="flink-train-scala" type="b2602c69:ProjectViewProjectNode" />
@@ -311,12 +350,12 @@
       <workItem from="1568642224841" duration="13516000" />
       <workItem from="1569050042030" duration="2389000" />
       <workItem from="1569256721043" duration="1365000" />
-      <workItem from="1569258097740" duration="120000" />
+      <workItem from="1569258097740" duration="694000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27596000" />
+    <option name="totallyTimeSpent" value="28170000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
@@ -612,16 +651,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/imooc/flink/scala/DataStreamDataSource/DataSourceApp.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-          <folding>
-            <element signature="e#52#108#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -671,6 +700,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="226">
           <caret line="171" column="32" lean-forward="true" selection-start-line="171" selection-start-column="32" selection-end-line="171" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/imooc/flink/scala/DataStreamDataSource/DataSourceApp.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-147">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+          <folding>
+            <element signature="e#52#108#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
