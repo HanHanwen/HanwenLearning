@@ -9,7 +9,16 @@ object WindowReduceApp {
 
     /**
       * 此处为了实现ReduceFunction，故scoket传入元素需为数值型
+      * ReduceFunction
+      *
+      * val input: DataStream[(String, Long)] = ...
+      *
+      * input
+      * .keyBy(<key selector>)
+      * .window(<window assigner>)
+      * .reduce { (v1, v2) => (v1._1, v1._2 + v2._2) }
       */
+
     val data = env.socketTextStream("localhost",9999)
 
     data.flatMap(_.split(","))
