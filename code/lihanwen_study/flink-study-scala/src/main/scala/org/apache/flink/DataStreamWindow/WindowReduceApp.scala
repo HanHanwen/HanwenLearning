@@ -26,12 +26,19 @@ object WindowReduceApp {
       .keyBy(0)//因为key都是1，所以所有的元素都分配到一个task执行
       .timeWindowAll(Time.seconds(5))
       .reduce{(v1,v2) => {
-        println(v1 + "..." + v1)
+        println(v1 + "..." + v2)
 
         (v1._1 , v1._2 + v2._2)
       }}
       .print()
 
+    /**
+      * (1,1)...(1,2)
+      * (1,3)...(1,3)
+      * (1,6)...(1,4)
+      * (1,10)...(1,5)
+      * 4> (1,15)
+      */
 
     env.execute("WindowReduceApp")
 
