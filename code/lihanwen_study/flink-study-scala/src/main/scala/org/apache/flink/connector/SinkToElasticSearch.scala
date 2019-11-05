@@ -7,8 +7,12 @@ import org.apache.flink.streaming.connectors.elasticsearch6.ElasticsearchSink
 import org.apache.http.HttpHost
 import org.elasticsearch.action.index.IndexRequest
 import org.elasticsearch.client.Requests
+import org.slf4j.LoggerFactory
 
 object SinkToElasticSearch {
+
+  val logger = LoggerFactory.getLogger("LogAnalysis")
+
   def main(args: Array[String]): Unit = {
 
     /**
@@ -55,11 +59,10 @@ curl -X PUT "http://localhost:9200/my-index" -H 'Content-Type:application/json' 
 
 
     //设置每个批量请求要缓冲的最大操作数
-    //esSinkBuilder.setBulkFlushMaxActions(1)
+    esSinkBuilder.setBulkFlushMaxActions(1)
 
-    input.print()
-
-    input.addSink(esSinkBuilder.build)
+    // finally, build and add the sink to the job's pipeline
+    input.addSink(esSinkBuilder.build) //.setParallelism(5)
 
     env.execute("SinkToElasticSearch")
 
