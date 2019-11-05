@@ -3,6 +3,7 @@ package org.apache.flink.connector
 import java.util.Properties
 
 import org.apache.flink.api.common.serialization.SimpleStringSchema
+import org.apache.flink.streaming.api.CheckpointingMode
 import org.apache.flink.streaming.api.scala.StreamExecutionEnvironment
 import org.apache.flink.streaming.connectors.kafka.FlinkKafkaConsumer
 
@@ -15,6 +16,7 @@ object ConsumeKafkaApp {
       * Kafka Consumers and Fault Tolerance
       */
     env.enableCheckpointing(5000)//checkpoint every 5000 msecs，单位：毫秒
+    env.getCheckpointConfig.setCheckpointingMode(CheckpointingMode.EXACTLY_ONCE)
 
     val properties = new Properties()
     val topic = "test"//从kafka群组中消费的topic
