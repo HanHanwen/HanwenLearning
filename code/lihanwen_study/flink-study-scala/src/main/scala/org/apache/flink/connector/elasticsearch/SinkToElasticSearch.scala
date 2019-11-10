@@ -1,4 +1,4 @@
-package org.apache.flink.connector
+package org.apache.flink.connector.elasticsearch
 
 import org.apache.flink.api.common.functions.RuntimeContext
 import org.apache.flink.streaming.api.scala.StreamExecutionEnvironment
@@ -61,7 +61,7 @@ curl -X PUT "http://localhost:9200/my-index" -H 'Content-Type:application/json' 
     //设置每个批量请求要缓冲的最大操作数
     esSinkBuilder.setBulkFlushMaxActions(1)
 
-    // finally, build and add the sink to the job's pipeline
+
     input.addSink(esSinkBuilder.build) //.setParallelism(5)
 
     env.execute("SinkToElasticSearch")

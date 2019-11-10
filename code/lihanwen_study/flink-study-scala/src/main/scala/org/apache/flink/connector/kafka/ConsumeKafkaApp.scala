@@ -1,4 +1,4 @@
-package org.apache.flink.connector
+package org.apache.flink.connector.kafka
 
 import java.util.Properties
 

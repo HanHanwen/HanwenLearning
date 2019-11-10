@@ -1,4 +1,4 @@
-package org.apache.flink.connector
+package org.apache.flink.connector.kafka
 
 import org.apache.flink.api.common.serialization.SimpleStringSchema
 import org.apache.flink.streaming.api.scala.StreamExecutionEnvironment
@@ -13,7 +13,8 @@ object ProduceKafkaApp {
     var stream = env.socketTextStream("localhost",9999)
 
     val brokerlist = "localhost:9092"
-    val topic = "test"
+    //val topic = "test"
+    val topic = "student"
 
     val myProducer = new FlinkKafkaProducer[String](
       brokerlist,
