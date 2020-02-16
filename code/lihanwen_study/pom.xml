@@ -11,6 +11,7 @@
     <modules>
         <module>flink-study-scala</module>
         <module>flink-study-java</module>
+        <module>study-java</module>
     </modules>
 
     <properties>

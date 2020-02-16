@@ -1,4 +1,4 @@
-package cn.hhanwen.java.UDF;
+package apache.hadoop.udf;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONException;
@@ -7,6 +7,7 @@ import com.google.common.collect.Maps;
 import org.apache.hadoop.hive.ql.exec.UDF;
 
 import java.util.Map;
+
 
 /**
  * date:        2019-08-05

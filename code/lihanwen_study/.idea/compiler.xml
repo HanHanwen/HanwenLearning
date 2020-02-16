@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="flink-study-java" />
         <module name="flink-study-scala" />
+        <module name="study-java" />
       </profile>
     </annotationProcessing>
   </component>
