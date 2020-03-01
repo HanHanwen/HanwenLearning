@@ -1,9 +1,6 @@
 package normal.study;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 public class MainNormal {
 
@@ -32,9 +29,31 @@ public class MainNormal {
     }
 
 
-    public static void main(String[] args){
+    public static void main2(String[] args){
         String s = "pwdlw";
 
         System.out.println(s.substring(1,2));
+    }
+
+
+    public static void main(String[] args){
+        String fields  = "1,2,3";
+
+        List<String> fieldsArray = Arrays.asList(fields.split(","));
+
+        String str = "struct<";
+        for(String field: fieldsArray){
+            str = str + field + ":string";
+
+            if(fieldsArray.size() - 1 == fieldsArray.indexOf(field)){
+                str = str + ">";
+            }else {
+                str = str + ",";
+            }
+
+        }
+
+        System.out.println(fieldsArray);
+        System.out.println(str);
     }
 }
