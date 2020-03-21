@@ -110,8 +110,8 @@ hive.exec.reducers.max
 举例：
 
 ```shell
-hadoop fs -du -h /bidw/bi_dw.db/dw_tsp_log_wechat_app_dada/
-141.7 M   425.1 M  /bidw/bi_dw.db/dw_tsp_log_wechat_app_dada/create_dt=2020-03-20
+hadoop fs -du -h /bd/bi_dw_table/
+141.7 M   425.1 M  /bd/bi_dw_table/dt=2020-03-20
 ```
 
 ```sql
@@ -120,14 +120,14 @@ set mapred.min.split.size.per.node=2000000;
 set mapred.min.split.size.per.rack=2000000;
 set hive.exec.reducers.bytes.per.reducer=2000000;
 
-drop table if exists bi_temp.temp_lhw_test;
-create table bi_temp.temp_lhw_test
+drop table if exists temp.temp_lhw_test;
+create table temp.temp_lhw_test
   as
 select
      device_id
     ,channel_code as channel
     ,row_number() over(partition by device_id order by client_unixtime asc) as rnk
-from bi_dw.dw_tsp_log_wechat_app_dada
+from bd.bi_dw_table
 where create_dt='2020-03-20'
 ;
 
