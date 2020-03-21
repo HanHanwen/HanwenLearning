@@ -128,7 +128,7 @@ select
     ,channel_code as channel
     ,row_number() over(partition by device_id order by client_unixtime asc) as rnk
 from bd.bi_dw_table
-where create_dt='2020-03-20'
+where dt='2020-03-20'
 ;
 
 
